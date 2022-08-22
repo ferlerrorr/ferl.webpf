@@ -32,7 +32,6 @@
 	<h6 class="toc" style="padding-top:1rem;"><span style=" font-weight: 500;">Copyright © 2022 Ferl.webpf.ph</span> | <a class="ft-ahr" href="#"target="_blank">Privacy Policy</a>
 </h6>
 </footer>
-<link rel="stylesheet" href="<?=bloginfo('url');?>/wp-content/themes/fportf/main.js"/>
 <!-- <script src="<php echo get_template_directory_uri(); ?>/main.js"></script> -->
 </body>
 <?php wp_footer()?>

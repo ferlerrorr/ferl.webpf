@@ -1,4 +1,3 @@
-
 //! Nav Scroll Effect
 $(document).ready(function () {
 	// Function to change the nav-bar on scroll
@@ -88,4 +87,3 @@ $(document).ready(function () {
 
 
   //!MouseScroll Effect -------------------------------------------------------------------------------------------------------------------------->
-
