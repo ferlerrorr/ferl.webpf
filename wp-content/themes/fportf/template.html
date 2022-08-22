@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+<!-- Priority -->
+<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/> -->
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<!-- jquery -->
+<!-- <link rel="preload" href="<?=bloginfo('url');?>/wp-content/plugins/elementor/assets/css/frontend-lite.min.css" as="style"/> -->
+<!-- Priority -->
+<!-- Pre-connects -->
+<link rel="preconnect" href="https://kit.fontawesome.com/">
+<link rel="preconnect" href="https://file.myfontastic.com/sK9sqngFqBGZKZUVm4zSJ3/">
+<!--  Pre-connects -->
+
+<script src="https://kit.fontawesome.com/a5b3b870d7.js" crossorigin="anonymous"></script>
+<link href="https://file.myfontastic.com/sK9sqngFqBGZKZUVm4zSJ3/icons.css" rel="stylesheet">
+</head>
+<body>
+	<header class="container-fluid nav-container" style= "z-index:2; width:100vw; margin-left: 0; margin-right: 0;">
+		<nav class="container navigation">
+			<ul class="menunav" style="margin-left:.02rem;">
+				<li class="logo" style="text-align:left;"><a style="margin-right:50%;" href="<?=bloginfo('url');?>/"><img class="invlogo" src="img/mobilogo.svg" alt="logo" ></a></li>
+				<li class="toggle" style="padding: .3rem .5rem 0  0; flex:1; position:relative;">
+					<a rel="nofollow" style="padding:0;" aria-pressed="false" style="color: #ce13af">
+						<i class="fa-solid fa-bars" id="togmenu" alt="toggle" style="color: #ce13af"></i>
+					</a>
+				</li>
+			</ul>
+			<ul class="menu">
+				<li class="item"><a href="#">COMPANY</a></li>
+				<li class="item"><a href="#">ECOMMERCE AUTOMATION</a></li>
+				<li class="item"><a href="#">SOLUTIONS</a></li>
+				<li class="item"><a href="#">CONTACT US</a></li>
+				<li class="item son"><a class="sona" href="#">SELL ONLINE NOW!</a></li>
+			</ul>
+		</nav>
+	</header>
+<!-- Header section -->
+<!-- Footer section -->
+<footer class="container-fluid">
+	<section class="container ft " background-color: #e7e7e7; display: flexbox;">
+		<div class="ft-col container" style="max-width: 510px">
+			<ul class="contacts">
+				<li class="ft-logo"><a href="#" aria-label="footerlogo"><img src="img/malogoinv.svg" alt="logo"
+							style="width: 6rem;"></a>
+				</li>
+				<li >
+					<p class="footer-company-about" >
+					1ecom is your end-to-end ecommerce solution provider.  Whether you are just starting your
+					online store, expanding it to breach new channels, or putting up a customer support facility, we provide
+					you the right tools and technology that fit your needs and grow your  business.
+					</p>
+				</li>
+			</ul>
+		</div>
+		<div class="ft-col container">
+			<span class="ft-title col-space">What We Do</span>
+			<ul class="contacts col-space">
+				<li><a href="#" aria-label="about">Company</a></li>
+				<li><a href="#" aria-label="s">Ecommerce Automation</a></li>
+				<li><a href="#" aria-label="s">Services</a></li>
+				<li><a href="#" aria-label="contact us">Contact Us</a></li>
+			</ul>
+
+		</div>
+		<div class="ft-col container">
+			<span class=" ft-title">Connect With Us</span>
+			<ul >
+				<li>
+					<div class="contacts ft-contacts " style="justify-content:flex-start;">
+						<a href="https://www.google.com/maps/place/In1Go+Technologies+Inc./@14.4481538,120.9922245,17z/data=!4m12!1m6!3m5!1s0x3397cf04d69589b7:0x378e5251d103adb7!2sLAS+PINAS+CARGO+COMPLEX!8m2!3d14.4481486!4d120.9944132!3m4!1s0x0:0x4b64607b8f930152!8m2!3d14.447798!4d120.9948852" id="map" aria-label="map" target="_blank" style="margin-top:.4rem;"><i class="fa fa-map-marker social-icons"
+								style="border-radius: 20px; text-align: center;"></i></a>
+						<a class="map-address" href="https://www.google.com/maps/place/In1Go+Technologies+Inc./@14.4481538,120.9922245,17z/data=!4m12!1m6!3m5!1s0x3397cf04d69589b7:0x378e5251d103adb7!2sLAS+PINAS+CARGO+COMPLEX!8m2!3d14.4481486!4d120.9944132!3m4!1s0x0:0x4b64607b8f930152!8m2!3d14.447798!4d120.9948852" id="address" aria-label="address" target="_blank">
+							Las Pinas Cargo Complex J. Aguilar Avenue<br>Talon Uno,
+							Las Pinas City, 1747,
+							Philippines
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="contacts ft-contacts" style="display:block">
+						<a href="tel:+63288143209" aria-label="phone" style="margin-top:.5rem;"> <i class="fa fa-phone social-icons"
+								style="border-radius: 20px; padding: .7em"></i></a>
+							<a href="tel:+63288143209" id="number1" aria-label="contact number1" >+63 2 8814 3209</a>
+							<br>
+							<a class="number-left" href="tel:+63285118618" id="number2" aria-label="contact number2">+63 2 8511 8618</a>
+					</div>
+					<div class="contacts ft-contacts" style="justify-content:flex-start;">
+						<a href="mailto:customercare@in1go.com.ph" aria-label="email address" id="email"> <i class="fa fa-envelope social-icons"
+								style="border-radius: 20px; padding: .7em; "></i></a>
+						<a href="mailto:customercare@in1go.com.ph" id="email" style="margin-left:2%">customercare@in1go.com.ph</a>
+					</div>
+				</li>
+				<li>
+					<div class="contacts ft-contacts solicons solicon">
+						<a href="https://www.facebook.com/in1gotech/" aria-label="facebook profile"  target="_blank"><i class="fab fa-facebook-f social-icons"></i></a>
+						<a href="https://www.linkedin.com/company/in1gotech" target="_blank" aria-label="linkedin profile"><i
+								class="fab fa-linkedin-in social-icons"></i></a>
+						<a href="https://www.youtube.com/channel/UCWu79HfXHYax8e-wnLhJU3g/videos" target="_blank" aria-label="youtube profile"><i class="fab fa-youtube social-icons"></i></a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<h6 class="toc"><span style="font-weight: 500;">Copyright © 2022 1ecom.ph</span> | <a href="https://in1gotech.com/privacy-policy/"target="_blank">Privacy Policy</a>
+</h6>
+</footer>
+<!-- footer section -->
+</body>
+<script src="script.js"></script>
+<!-- !Navigation Menu Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
