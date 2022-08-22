@@ -8,5 +8,4 @@
     </div>
 </div><!-- #site-content -->
 </div>
-<?php
-get_footer();?>
+<?php get_footer();?>

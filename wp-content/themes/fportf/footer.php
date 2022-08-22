@@ -6,7 +6,7 @@
 	<section class="ft"  >
 		<div class="ft-col ft-left">
 			<ul class="contacts col-space" style="display: inline-flex; padding: 10px 0 0 0;">
-				<li class="ft-logo"><a href="#" aria-label="footerlogo"><img src="\ferl.webpf\wp-content\themes\fportf\img\lgmono.svg" alt="logo"
+				<li class="ft-logo"><a href="#" aria-label="footerlogo"><img src="<?=bloginfo('url');?>/img/lgmono.svg" alt="logo"
 						></a>
 						<!-- <php echo get_template_directory_uri(); ?>/img/malogoinv.svg"  -->
 				</li>
@@ -30,12 +30,11 @@
 			</ul>
 		</div>
 	</section>
-	<h6 class="toc" style="padding-top:1rem;"><span style=" font-weight: 500;">Copyright © 2022 Ferl.webpf.ph</span> | <a class="ft-ahr" href="https://in1gotech.com/privacy-policy/"target="_blank">Privacy Policy</a>
+	<h6 class="toc" style="padding-top:1rem;"><span style=" font-weight: 500;">Copyright © 2022 Ferl.webpf.ph</span> | <a class="ft-ahr" href="#"target="_blank">Privacy Policy</a>
 </h6>
 </footer>
-<!-- <script src="http://https://ferlerrorr.github.io/ferl.webpf/main.js"></script> -->
-<script src="<?php echo get_template_directory_uri(); ?>/main.js"></script>
-
+<link rel="stylesheet" href="<?=bloginfo('url');?>/wp-content/themes/fportf/main.js"/>
+<!-- <script src="<php echo get_template_directory_uri(); ?>/main.js"></script> -->
 </body>
 <?php wp_footer()?>
 </html>
