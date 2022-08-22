@@ -9,6 +9,7 @@
 <meta name="description" content="Gain end-to-end visibility and manage your overall logistics in a single platform.">
 <!-- Priority -->
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
+<!-- <link rel="stylesheet" href="http://https://ferlerrorr.github.io/ferl.webpf/"/> -->
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 <!-- jquery -->

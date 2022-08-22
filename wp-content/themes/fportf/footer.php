@@ -33,8 +33,9 @@
 	<h6 class="toc" style="padding-top:1rem;"><span style=" font-weight: 500;">Copyright © 2022 Ferl.webpf.ph</span> | <a class="ft-ahr" href="https://in1gotech.com/privacy-policy/"target="_blank">Privacy Policy</a>
 </h6>
 </footer>
-<!-- <script src="./wp-content/themes/fportf/main.js"></script> -->
+<!-- <script src="http://https://ferlerrorr.github.io/ferl.webpf/main.js"></script> -->
 <script src="<?php echo get_template_directory_uri(); ?>/main.js"></script>
+
 </body>
 <?php wp_footer()?>
 </html>

@@ -12,8 +12,8 @@
 
 <channel>
 	<title>Ferl.web</title>
-	<atom:link href="http://https://ferlerrorr.github.io/ferl.webpf/feed/" rel="self" type="application/rss+xml" />
-	<link>http://https://ferlerrorr.github.io/ferl.webpf</link>
+	<atom:link href="https://ferlerrorr.github.io/ferl.webpf/feed/" rel="self" type="application/rss+xml" />
+	<link>https://ferlerrorr.github.io/ferl.webpf</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Sat, 20 Aug 2022 22:20:34 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -24,20 +24,20 @@
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>http://https://ferlerrorr.github.io/ferl.webpf/2022/08/20/hello-world/</link>
-					<comments>http://https://ferlerrorr.github.io/ferl.webpf/2022/08/20/hello-world/#comments</comments>
+		<link>https://ferlerrorr.github.io/ferl.webpf/2022/08/20/hello-world/</link>
+					<comments>https://ferlerrorr.github.io/ferl.webpf/2022/08/20/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 20 Aug 2022 22:20:34 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">http://https://ferlerrorr.github.io/ferl.webpf/?p=1</guid>
+		<guid isPermaLink="false">https://ferlerrorr.github.io/ferl.webpf/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://https://ferlerrorr.github.io/ferl.webpf/2022/08/20/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>https://ferlerrorr.github.io/ferl.webpf/2022/08/20/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
