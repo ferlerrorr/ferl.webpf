@@ -517,11 +517,11 @@ nav a{
 
 
 .scrolled2 li a{
-  color:  #f8f8f8 !important;
+  color:  #F7CC01 !important;
 }
 
 .scrolled2 li a:hover{
-  color:  yellow !important;
+  color:  #ffc04d !important;
 }
 
 /*
@@ -937,7 +937,7 @@ width: 2.5rem !important;
       gap: 25px;
     }
     nav li a{
-      color:  #fc0587 !important;
+      color:  #F7CC01 !important;
     }
 
   }
@@ -1030,11 +1030,11 @@ width: 2.5rem !important;
     }
   
     nav li a{
-      color:  #fc0587 !important;
+      color:  #F7CC01 !important;
     }
 
     nav li a:active{
-      color:  yellow !important;
+      color:  rgb(255, 81, 0) !important;
     }
 
 
@@ -1084,11 +1084,11 @@ width: 2.5rem !important;
     .fa-bars:before,
     .fa-navicon:before {
       content: "\f0c9";
-      color: #fc0587
+      color: #F7CC01;
     }
   
     .toggle i {
-      color:  #fc0587 !important;
+      color:  #F7CC01 !important;
     }
   
     .nav-container {
@@ -1128,7 +1128,7 @@ width: 2.5rem !important;
 
   
     .scrolled2 nav li a{
-      color: #fc0587 !important;
+      color: #F7CC01 !important;
     }
   
   
@@ -1235,16 +1235,16 @@ width: 2.5rem !important;
     .fa-bars:before,
     .fa-navicon:before {
       content: "\f0c9";
-      color:  #fc0587 ;
+      color:  #F7CC01 ;
     }
   
     .toggle i {
-    color:  #fc0587;
+    color:  #F7CC01;
     }
   
     .nav-container {
       padding-top: .6rem;
-      padding-bottom: .6rem;
+      padding-bottom: 2.8rem;
       position: fixed;
     }
   

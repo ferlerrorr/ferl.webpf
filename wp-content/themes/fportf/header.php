@@ -26,12 +26,12 @@
 				<li class="logo" style="text-align:left;padding-top: 0px;"><a href="<?=bloginfo('url');?>/" style="padding-top: 0px;" ><img class="invlogo" src="<?=bloginfo('url');?>/wp-content/themes/fportf/img/lgcolr.svg" alt="logo"></a></li>
 				<!-- <php echo get_template_directory_uri(); ?>/img/lgmno.svg -->
 				<li class="toggle" style="padding: 0 .5rem 0  0; flex:1; position:relative;">
-					<a rel="nofollow" style="padding:0;" aria-pressed="false" style="color: #ce13af">
-						<i class="fa-solid fa-bars" id="togmenu" alt="toggle" style="color: #ce13af"></i>
+					<a rel="nofollow" style="padding:0;" aria-pressed="false" >
+						<i class="fa-solid fa-bars" id="togmenu" alt="toggle"></i>
 					</a>
 				</li>
 			</ul>
-			<ul class="menu" style="top: 59px;">
+			<ul class="menu" style="top: 51px">
 				<li class="item"><a href="<?=bloginfo('url');?>/#home">FERL.DEv</a></li>
 				<li class="item"><a href="<?=bloginfo('url');?>/#wid">ABOUT</a></li>
 				<li class="item"><a href="<?=bloginfo('url');?>/#somw" >PORTFOLIO</a></li>
