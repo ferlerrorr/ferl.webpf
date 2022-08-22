@@ -47,7 +47,7 @@ add_action( 'wp_default_scripts', 'remove_jquery_migrate' );
 // ?EnQue - Dependencies
 // !Add Scripts
 function fj_addscripts(){
-  wp_enqueue_script('scripts',get_template_directory_uri()."/main.js",array(),'1.0','all');
+  wp_enqueue_script('scripts',get_template_directory_uri()."/main.min.js",array(),'1.0','all');
 }
  add_action('wp_enqueue_scripts','fj_addscripts');
  //?EnQue - Dependencies
