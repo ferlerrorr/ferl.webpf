@@ -37,4 +37,4 @@
 </body>
 <?php wp_footer()?>
 </html>
-<!-- footer section -->
+
