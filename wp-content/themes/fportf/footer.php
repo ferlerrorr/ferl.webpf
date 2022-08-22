@@ -6,8 +6,7 @@
 	<section class="ft"  >
 		<div class="ft-col ft-left">
 			<ul class="contacts col-space" style="display: inline-flex; padding: 10px 0 0 0;">
-				<li class="ft-logo"><a href="#" aria-label="footerlogo"><img src="<?=bloginfo('url');?>/img/lgmono.svg" alt="logo"
-						></a>
+				<li class="ft-logo"><a href="#" aria-label="footerlogo"><img src="<?=bloginfo('url');?>/wp-content/themes/fportf/img/lgmono.svg" alt="logo"></a>
 						<!-- <php echo get_template_directory_uri(); ?>/img/malogoinv.svg"  -->
 				</li>
 				<li><a class="ft-ahr" href="<?=bloginfo('url');?>/#home" aria-label="about" target="_blank" >FERL.DEv</a></li>

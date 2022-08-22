@@ -23,8 +23,7 @@
 <header class="container-fluid nav-container" style= "z-index:2; width:100vw; margin-left: 0; margin-right: 0;">
 		<nav class="container navigation">
 			<ul class="menunav" style="margin-left:.02rem;">
-				<li class="logo" style="text-align:left;padding-top: 0px;"><a href="<?=bloginfo('url');?>/" style="padding-top: 0px;" ><img class="invlogo" src="\ferl.webpf\wp-content\themes\fportf\img\lgcolr.svg" alt="logo"></a></li>
-
+				<li class="logo" style="text-align:left;padding-top: 0px;"><a href="<?=bloginfo('url');?>/" style="padding-top: 0px;" ><img class="invlogo" src="<?=bloginfo('url');?>/wp-content/themes/fportf/img/lgcolr.svg" alt="logo"></a></li>
 				<!-- <php echo get_template_directory_uri(); ?>/img/lgmno.svg -->
 				<li class="toggle" style="padding: 0 .5rem 0  0; flex:1; position:relative;">
 					<a rel="nofollow" style="padding:0;" aria-pressed="false" style="color: #ce13af">

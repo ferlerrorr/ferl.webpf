@@ -43,8 +43,8 @@ $(document).ready(function () {
   const menu = document.querySelector(".menu");
   const navcolor = document.querySelector(".nav-container");
   const logo = document.querySelector(".invlogo");
-  let scrollSrc = "/ferl.webpf/wp-content/themes/fportf/img/lgmono.svg";
-  let initialSrc = "/ferl.webpf/wp-content/themes/fportf/img/lgcolr.svg";
+  let scrollSrc = "https://ferlerrorr.github.io/ferl.webpf/wp-content/themes/fportf/img/lgmono.svg";
+  let initialSrc = "https://ferlerrorr.github.io/ferl.webpf/wp-content/themes/fportf/img/lgcolr.svg";
 //   localhost/ferl.webpf/wp-content/themes/fportf/img/lgmno.svg
   function toggleMenu() {
 	if (
@@ -71,8 +71,8 @@ $(document).ready(function () {
   $(document).ready(function () {
 	// Function to change the nav-bar on scroll
 	$(window).scroll(function () {
-	  let scrollSrc = "/ferl.webpf/wp-content/themes/fportf/img/lgmono.svg";
-	  let  initialSrc = "/ferl.webpf/wp-content/themes/fportf/img/lgcolr.svg";
+	  let scrollSrc = "https://ferlerrorr.github.io/ferl.webpf/wp-content/themes/fportf/img/lgmono.svg";
+	  let  initialSrc = "https://ferlerrorr.github.io/ferl.webpf/wp-content/themes/fportf/img/lgcolr.svg";
 	  $(window).scrollTop() >= 49
 		? $(".invlogo").attr("src", scrollSrc)
 		: ($(".invlogo").attr("src", initialSrc),
