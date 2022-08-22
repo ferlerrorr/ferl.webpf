@@ -887,7 +887,6 @@ const items = document.querySelectorAll('.slider-item');
 const itemCount = items.length;
 const nextItem = document.querySelector('.next');
 const previousItem = document.querySelector('.previous');
-const navItem = document.querySelector('a.toggle-nav');
 let count = 0;
 
 function showNextItem() {
@@ -917,9 +916,6 @@ function showPreviousItem() {
   console.log(count);
 }
 
-function toggleNavigation(){
-  this.nextElementSibling.classList.toggle('active');
-}
 
 function keyPress(e) {
   e = e || window.event;
