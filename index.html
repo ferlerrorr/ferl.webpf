@@ -295,6 +295,186 @@ As a Web developer an eye for design in UI and UX can be a factor for projects, 
 		</div>
 							</div>
 		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-097206d elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="097206d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c73e9bd" data-id="c73e9bd" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7b06060 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="7b06060" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d565cd8" data-id="d565cd8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-67bc4d8 elementor-widget elementor-widget-heading" data-id="67bc4d8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Some Design's</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-e6d65b2 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default" data-id="e6d65b2" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-95c86c4" data-id="95c86c4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-38e8102 ha-css-transform-yes elementor-widget elementor-widget-html" data-id="38e8102" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			
+
+
+  <meta charset="UTF-8">
+  <title>Blue-Eyes</title>
+  
+
+
+
+<div class="body-yg">
+<style>.body-yg {
+  box-sizing: border-box;
+  width: 100%;
+  height: 76vh;
+  display: flex;
+  border-radius:20px;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, sans-serif;
+  perspective: 1500px;
+  background: linear-gradient(#181a1a, #cfc09f9f 23%,#ffecb3a9 40%,#3a2c0f83 78%);
+}
+
+.cardyg{
+  font-weight: bold;
+  padding: 1em;
+  text-align: right;
+  width:  358px;
+  height: 520px;
+  box-shadow: 0 1px 5px #00000099;
+  border-radius: 10px;
+  background-image:
+  url(https://images-na.ssl-images-amazon.com/images/I/61YXNhfzlzL._SL1012_.jpg);
+  background-size: cover;
+  position: relative;
+  transition-duration: 300ms;
+  transition-property: transform, box-shadow;
+  transition-timing-function: ease-out;
+  transform: rotate3d(0);
+  transition: transform .9s;
+  -webkit-transition: transform .9s;
+  -moz-transition: transform .9s;
+  -ms-transition: transform .9s;
+  -o-transition: transform .9s;
+}
+
+
+
+.backyg{
+  transform: rotateY(180deg) !important;
+  transition: transform 10s;
+  -webkit-transition: transform 10s;
+  -moz-transition: transform 10s;
+  -ms-transition: transform 10s;
+  -o-transition: transform 10s;
+  background-image:
+  url(https://vignette3.wikia.nocookie.net/yugioh/images/9/94/Back-Anime-2.png/revision/latest?cb=20110624090942) !important;
+}
+
+
+
+.cardyg:hover {
+  transition-duration: 150ms;
+  box-shadow: 0 5px 20px 5px #00000044;
+}
+
+.cardyg .glowyg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: radial-gradient(circle at 50% -20%, #ffffff22, #0000000f);
+}</style>
+
+
+<!-- partial:index.partial.html -->
+<div class="cardyg" id="card">
+<div class="glowyg"></div>
+</div>
+<!-- partial -->
+<script>
+const $card = document.querySelector('.cardyg');
+let bounds;
+
+function rotateToMouse(e) {
+  const mouseX = e.clientX;
+  const mouseY = e.clientY;
+  const leftX = mouseX - bounds.x;
+  const topY = mouseY - bounds.y;
+  const center = {
+    x: leftX - bounds.width / 2,
+    y: topY - bounds.height / 2
+  }
+  const distance = Math.sqrt(center.x**2 + center.y**2);
+  
+  $card.style.transform = `
+    scale3d(1.07, 1.07, 1.07)
+    rotate3d(
+      ${center.y / 100},
+      ${-center.x / 100},
+      0,
+      ${Math.log(distance)* 2}deg
+    )
+  `;
+  
+  $card.querySelector('.glowyg').style.backgroundImage = `
+    radial-gradient(
+      circle at
+      ${center.x * 2 + bounds.width/2}px
+      ${center.y * 2 + bounds.height/2}px,
+      #ffffff55,
+      #0000000f
+    )
+  `;
+}
+
+$card.addEventListener('mouseenter', () => {
+  bounds = $card.getBoundingClientRect();
+  document.addEventListener('mousemove', rotateToMouse);
+});
+
+$card.addEventListener('mouseleave', () => {
+  document.removeEventListener('mousemove', rotateToMouse);
+  $card.style.transform = '';
+  $card.style.background = '';
+});
+
+
+
+$(function() {
+  $('.cardyg').click(function() { // when a .myDiv is clicked
+    $('.cardyg').not(this).removeClass('backyg')
+    $(this).toggleClass('backyg')
+  })
+})
+</script>
+</div>
+
+
+		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c584667" data-id="c584667" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6abe7f9 elementor-widget elementor-widget-text-editor" data-id="6abe7f9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<b>Blue-Eyes White Dragon</b> is a character version of the card, &#8220;<a style="color:#F7CC01;" title="Blue-Eyes White Dragon" href="https://yugioh.fandom.com/wiki/Blue-Eyes_White_Dragon">Blue-Eyes White Dragon</a>&#8220;. Although the duel monsters card is powerful in its own right, the actual monster spirit is incredibly powerful, being one of the most powerful monsters in the <i>Yu-Gi-Oh!</i> universe, even rivaling that of the Egyptian Gods Obelisk the Tormentor and Slifer the Sky Dragon.						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-aa73962 elementor-section-height-min-height elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-items-middle" data-id="aa73962" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;_ha_eqh_enable&quot;:false}">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5fdab28" data-id="5fdab28" data-element_type="column" id="somw" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -956,186 +1136,6 @@ document.addEventListener('keydown', keyPress);
    		</div>
 				</div>
 					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-7b06060 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="7b06060" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d565cd8" data-id="d565cd8" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-67bc4d8 elementor-widget elementor-widget-heading" data-id="67bc4d8" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Some Design's</h2>		</div>
-				</div>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-e6d65b2 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default" data-id="e6d65b2" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-95c86c4" data-id="95c86c4" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-38e8102 ha-css-transform-yes elementor-widget elementor-widget-html" data-id="38e8102" data-element_type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-			
-
-
-  <meta charset="UTF-8">
-  <title>Blue-Eyes</title>
-  
-
-
-
-<div class="body-yg">
-<style>.body-yg {
-  box-sizing: border-box;
-  width: 100%;
-  height: 76vh;
-  display: flex;
-  border-radius:20px;
-  justify-content: center;
-  align-items: center;
-  font-family: system-ui, sans-serif;
-  perspective: 1500px;
-  background: linear-gradient(#181a1a, #cfc09f9f 23%,#ffecb3a9 40%,#3a2c0f83 78%);
-}
-
-.cardyg{
-  font-weight: bold;
-  padding: 1em;
-  text-align: right;
-  width:  358px;
-  height: 520px;
-  box-shadow: 0 1px 5px #00000099;
-  border-radius: 10px;
-  background-image:
-  url(https://images-na.ssl-images-amazon.com/images/I/61YXNhfzlzL._SL1012_.jpg);
-  background-size: cover;
-  position: relative;
-  transition-duration: 300ms;
-  transition-property: transform, box-shadow;
-  transition-timing-function: ease-out;
-  transform: rotate3d(0);
-  transition: transform .9s;
-  -webkit-transition: transform .9s;
-  -moz-transition: transform .9s;
-  -ms-transition: transform .9s;
-  -o-transition: transform .9s;
-}
-
-
-
-.backyg{
-  transform: rotateY(180deg) !important;
-  transition: transform 10s;
-  -webkit-transition: transform 10s;
-  -moz-transition: transform 10s;
-  -ms-transition: transform 10s;
-  -o-transition: transform 10s;
-  background-image:
-  url(https://vignette3.wikia.nocookie.net/yugioh/images/9/94/Back-Anime-2.png/revision/latest?cb=20110624090942) !important;
-}
-
-
-
-.cardyg:hover {
-  transition-duration: 150ms;
-  box-shadow: 0 5px 20px 5px #00000044;
-}
-
-.cardyg .glowyg{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-image: radial-gradient(circle at 50% -20%, #ffffff22, #0000000f);
-}</style>
-
-
-<!-- partial:index.partial.html -->
-<div class="cardyg" id="card">
-<div class="glowyg"></div>
-</div>
-<!-- partial -->
-<script>
-const $card = document.querySelector('.cardyg');
-let bounds;
-
-function rotateToMouse(e) {
-  const mouseX = e.clientX;
-  const mouseY = e.clientY;
-  const leftX = mouseX - bounds.x;
-  const topY = mouseY - bounds.y;
-  const center = {
-    x: leftX - bounds.width / 2,
-    y: topY - bounds.height / 2
-  }
-  const distance = Math.sqrt(center.x**2 + center.y**2);
-  
-  $card.style.transform = `
-    scale3d(1.07, 1.07, 1.07)
-    rotate3d(
-      ${center.y / 100},
-      ${-center.x / 100},
-      0,
-      ${Math.log(distance)* 2}deg
-    )
-  `;
-  
-  $card.querySelector('.glowyg').style.backgroundImage = `
-    radial-gradient(
-      circle at
-      ${center.x * 2 + bounds.width/2}px
-      ${center.y * 2 + bounds.height/2}px,
-      #ffffff55,
-      #0000000f
-    )
-  `;
-}
-
-$card.addEventListener('mouseenter', () => {
-  bounds = $card.getBoundingClientRect();
-  document.addEventListener('mousemove', rotateToMouse);
-});
-
-$card.addEventListener('mouseleave', () => {
-  document.removeEventListener('mousemove', rotateToMouse);
-  $card.style.transform = '';
-  $card.style.background = '';
-});
-
-
-
-$(function() {
-  $('.cardyg').click(function() { // when a .myDiv is clicked
-    $('.cardyg').not(this).removeClass('backyg')
-    $(this).toggleClass('backyg')
-  })
-})
-</script>
-</div>
-
-
-		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c584667" data-id="c584667" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-6abe7f9 elementor-widget elementor-widget-text-editor" data-id="6abe7f9" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<b>Blue-Eyes White Dragon</b> is a character version of the card, &#8220;<a style="color:#F7CC01;" title="Blue-Eyes White Dragon" href="https://yugioh.fandom.com/wiki/Blue-Eyes_White_Dragon">Blue-Eyes White Dragon</a>&#8220;. Although the duel monsters card is powerful in its own right, the actual monster spirit is incredibly powerful, being one of the most powerful monsters in the <i>Yu-Gi-Oh!</i> universe, even rivaling that of the Egyptian Gods Obelisk the Tormentor and Slifer the Sky Dragon.						</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-097206d elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="097206d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c73e9bd" data-id="c73e9bd" data-element_type="column">
-			<div class="elementor-widget-wrap">
-									</div>
 		</div>
 							</div>
 		</section>
